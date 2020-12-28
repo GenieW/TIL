@@ -1,4 +1,4 @@
-## for(key in `OOO`)
+## for(key in `배열/객체`)
 
 - 배열
 
@@ -22,6 +22,28 @@
 
 <img src="/img/javascript/for_in_object.png"> </img>
 
+---
+
 ## forEach
 
+```sh
+  const testArr = ["rk", "sk", "ek"];
+  testArr.forEach(element => console.log(element));
+```
+
+<img src="/img/javascript/forEach.png"> </img>
+
+---
+
 ## filter
+
+```sh
+  var testArr = ["rk", "sk", "ek"];
+
+  var result = [];
+  result = testArr.filter( x => { return x !== "rk" });
+
+  console.log(result);
+```
+
+<img src="/img/javascript/filter.png"> </img>
